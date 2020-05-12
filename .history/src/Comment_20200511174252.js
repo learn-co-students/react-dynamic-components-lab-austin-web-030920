@@ -4,7 +4,7 @@ export default class Comment extends Component {
 
     render() {
         return (
-            <div className = 'comment'>
+            <div>
                 {this.props.commentText}
             </div>
         );
